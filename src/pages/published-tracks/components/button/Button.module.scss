@@ -1,0 +1,21 @@
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 3.52vh 20px 1.58vh 20px;
+    background-color: transparent;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 86px;
+    height: 15.14vh;
+
+    h1 {
+        font-family: Roboto;
+        font-size: 0.688rem;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: var(--on-surface-high-emphasis);
+    }
+}

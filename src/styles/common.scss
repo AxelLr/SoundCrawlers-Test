@@ -1,0 +1,41 @@
+@import '../pages/published-tracks/components/likes-layer/LikesLayer.module.scss';
+
+* {
+    box-sizing: border-box;
+    --main-default: #181716;
+    --primary-default: #f5f5f5;
+    --on-surface-high-emphasis: rgba(255, 255, 255, 0.87);
+    --on-surface-mid-emphasis: rgba(255, 255, 255, 0.6);
+    --main-d-1: #0e0e0e;
+}
+// img {
+//     display: block;
+// }
+body {
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin: 0;
+}
+button {
+    background-color: none;
+    outline: none;
+    border: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+
+.global-container {
+    height: 100vh;
+    min-height: 568px;
+}

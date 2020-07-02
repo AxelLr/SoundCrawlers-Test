@@ -1,0 +1,148 @@
+.container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--main-d-1);
+    margin-top: 200%;
+}
+.header {
+    width: 100%;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 16px 0px 20px;  
+    background-color: var(--main-d-1);  
+
+    div:first-of-type {
+        display: flex;
+        align-items: center;
+    }
+
+    img {
+        width: 24px;
+        height: 24px;
+    }
+    h1 {
+        margin-left: 14px;
+        width: 34px;
+        height: 16px;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: var(--on-surface-high-emphasis);
+    }
+}
+.list {
+    overflow-y: auto;
+    height: calc(100% - 46px);
+}
+.itemListContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    height: 64px;
+    background-color: var(--main-d-1);
+    border-bottom: 1px solid rgba(245, 245, 245, .2);
+
+    div:first-of-type {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    img {
+        width: 32px;
+        height: 32px;
+        object-fit: contain;
+    }
+
+}
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+
+    h1 {
+        margin-bottom: 4px;
+        width: 90px;
+        height: 14px;
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: var(--on-surface-high-emphasis);
+    }
+    h2 {
+        align-self: flex-start;
+        width: 64px;
+        height: 14px;
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: var(--on-surface-mid-emphasis);
+    }
+}
+.handleFollow {
+    width: 88px;
+    height: 26px;
+    border-radius: 13px;
+    display: flex;
+
+    h1 { 
+        margin: auto;
+        width: 66px;
+        height: 11px;
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: bold;
+        font-stretch: condensed;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 0.6px;
+    }
+}
+.following {
+    @extend .handleFollow;
+    border: solid 2px var(--primary-default);
+    background-color: transparent; 
+    h1 {
+        color: var(--on-surface-high-emphasis);
+    }
+}
+.follow {
+    @extend .handleFollow;
+    h1 { 
+        color: var(--main-default);
+    }
+    background-color: var(--primary-default);
+}
+@keyframes fadeIn {
+to { 
+    margin-top: 0px;
+    opacity: 1;
+    height: 100%;
+}
+}
+@keyframes fadeOut {
+    0% {margin-top: 0% }
+    60% {opacity: 1 }
+    95% {opacity: 0 }
+    100% { 
+        opacity: 0;
+        margin-top: 79vh;
+        height: 0%;
+    }
+}

@@ -1,0 +1,105 @@
+$pagePadding: 16px;
+
+.PublishedTrack {
+    background-color: var(--main-default);
+}
+.Bar {
+    height: 8.45vh;
+    min-height: 48px;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.35);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+}
+.contentContainer {
+  position: relative;
+}
+.youtubeVideo {
+    width: 100%;
+    height: 31.69vh;
+    min-height: 180px;
+    object-fit: cover;
+    margin-bottom: 2.11vh;
+}
+.article {
+    width: 100%;
+}
+.trackTitle {
+    min-height: 14px;
+    height: 2.46vh;
+    font-family: Roboto;
+    font-size: .75rem;
+    padding: 0px $pagePadding;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    color: var(--primary-default);
+    text-transform: uppercase;
+    margin-bottom: 3.52vh;
+}
+.userInfoContainer {
+    width: 100%;
+    display: flex;
+    padding: 2.81vh $pagePadding;
+    min-height: 80px;
+    height: 14.30vh;
+
+    img {
+        width: 32px;
+        height: 32px;
+        object-fit: contain;
+        margin-right: 12px;
+    }
+}
+.userInfo {
+    display: flex;
+    flex-direction: column; 
+}
+.username {
+    height: 14px;
+    font-family: Roboto;
+    font-size: .75rem;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--on-surface-high-emphasis);
+}
+.location {
+    font-family: Roboto;
+    font-size: .75rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--on-surface-mid-emphasis);
+    margin: 4px 0px;
+}
+.genre {
+    font-family: Roboto;
+    font-size: 0.688rem;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--on-surface-high-emphasis);
+    text-decoration: underline;
+}
+.buttonsContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    min-height: 86px;
+    height: 15.14vh;
+}
+.separator {
+    min-height: 8px;
+    height: 1.40vh;
+    background-color: var(--main-default);
+
+}
