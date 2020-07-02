@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7c096de9b730623574652189a85d28dd",
+    "revision": "a242a8c565a1c278a9d14e8df3a50430",
     "url": "/SoundCrawlers-Test/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SoundCrawlers-Test/static/css/2.764ccc25.chunk.css"
   },
   {
-    "revision": "498db0fafcb49e41660f",
-    "url": "/SoundCrawlers-Test/static/css/main.18cb6cf0.chunk.css"
+    "revision": "589301181b34212fbab4",
+    "url": "/SoundCrawlers-Test/static/css/main.388d34d6.chunk.css"
   },
   {
     "revision": "366f92b71e5ab32f9784",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SoundCrawlers-Test/static/js/2.f7eff1c6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "498db0fafcb49e41660f",
+    "revision": "589301181b34212fbab4",
     "url": "/SoundCrawlers-Test/static/js/main.ae146cfa.chunk.js"
   },
   {

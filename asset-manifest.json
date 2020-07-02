@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/SoundCrawlers-Test/static/css/main.18cb6cf0.chunk.css",
+    "main.css": "/SoundCrawlers-Test/static/css/main.388d34d6.chunk.css",
     "main.js": "/SoundCrawlers-Test/static/js/main.ae146cfa.chunk.js",
     "main.js.map": "/SoundCrawlers-Test/static/js/main.ae146cfa.chunk.js.map",
     "runtime-main.js": "/SoundCrawlers-Test/static/js/runtime-main.c46b6b69.js",
@@ -9,10 +9,10 @@
     "static/js/2.f7eff1c6.chunk.js": "/SoundCrawlers-Test/static/js/2.f7eff1c6.chunk.js",
     "static/js/2.f7eff1c6.chunk.js.map": "/SoundCrawlers-Test/static/js/2.f7eff1c6.chunk.js.map",
     "index.html": "/SoundCrawlers-Test/index.html",
-    "precache-manifest.a9ccb40d098a6f958d1fc7f9efc607a7.js": "/SoundCrawlers-Test/precache-manifest.a9ccb40d098a6f958d1fc7f9efc607a7.js",
+    "precache-manifest.03c94c49ad46e049437fc7ed8038e791.js": "/SoundCrawlers-Test/precache-manifest.03c94c49ad46e049437fc7ed8038e791.js",
     "service-worker.js": "/SoundCrawlers-Test/service-worker.js",
     "static/css/2.764ccc25.chunk.css.map": "/SoundCrawlers-Test/static/css/2.764ccc25.chunk.css.map",
-    "static/css/main.18cb6cf0.chunk.css.map": "/SoundCrawlers-Test/static/css/main.18cb6cf0.chunk.css.map",
+    "static/css/main.388d34d6.chunk.css.map": "/SoundCrawlers-Test/static/css/main.388d34d6.chunk.css.map",
     "static/js/2.f7eff1c6.chunk.js.LICENSE.txt": "/SoundCrawlers-Test/static/js/2.f7eff1c6.chunk.js.LICENSE.txt",
     "static/media/SearchIcon.svg": "/SoundCrawlers-Test/static/media/SearchIcon.612942ad.svg",
     "static/media/close-icon.svg": "/SoundCrawlers-Test/static/media/close-icon.ffb76979.svg",
@@ -29,7 +29,7 @@
     "static/js/runtime-main.c46b6b69.js",
     "static/css/2.764ccc25.chunk.css",
     "static/js/2.f7eff1c6.chunk.js",
-    "static/css/main.18cb6cf0.chunk.css",
+    "static/css/main.388d34d6.chunk.css",
     "static/js/main.ae146cfa.chunk.js"
   ]
 }
