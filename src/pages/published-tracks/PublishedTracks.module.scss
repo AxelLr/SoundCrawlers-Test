@@ -26,6 +26,8 @@ $pagePadding: 16px;
         }
     
         img:last-of-type {
+            min-height: 32px;
+            min-width: 32px;
             height: 10vw;
             width: 5.63vh;
         }
@@ -65,9 +67,12 @@ $pagePadding: 16px;
     padding: 2.81vh $pagePadding;
     min-height: 80px;
     height: 14.30vh;
-
+    // PROFILE IMAGE IN BODY
     img {
+        min-height: 32px;
+        min-width: 32px;
         height: 10vw;
+        max-height: 50px;
         width: 5.63vh;
         object-fit: contain;
         margin-right: 12px;
