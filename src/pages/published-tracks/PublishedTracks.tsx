@@ -23,8 +23,11 @@ const PublishedTracks:React.FC = () => {
     return (
         <section className={styles.PublishedTrack}>
             <nav className={styles.Bar}>
-                <img alt='search' src={SearchIcon} />
-                <img alt='profile' src={ProfileImage} />
+                <h1> LOGO </h1>
+                <div>            
+                    <img alt='search' src={SearchIcon} />
+                    <img alt='profile' src={ProfileImage} />
+                </div>
             </nav>
             <div className={styles.contentContainer}>
                 <LikesLayer showLikes={showLikes} setShowLikes={setShowLikes} />

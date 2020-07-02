@@ -5,14 +5,16 @@ import PublishedTracks from 'src/pages/published-tracks/PublishedTracks'
 const Router:React.FC = () => {
   
   return (
-    <div className='global-container'>
+    <>
       <div style={{ 
         width: '100%',
         minHeight: 70,
         height: '12.32vh',
         backgroundColor: '#757575',
-      }}>  </div>
+      }}></div>
+
       <PublishedTracks />
+
       <div
       style={{
         width: '100%',
@@ -20,10 +22,8 @@ const Router:React.FC = () => {
         minHeight: 45,
         backgroundColor: '#757575'
       }}
-      >
-
-      </div>
-    </div>
+      ></div>
+    </>
   )
 }
 

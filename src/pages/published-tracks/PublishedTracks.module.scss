@@ -10,7 +10,26 @@ $pagePadding: 16px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8px 16px;
+    padding: 0px 16px;
+
+    h1 {
+        color: white;
+        font-size: 10px;
+    }
+
+    div:first-of-type {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img:first-of-type {
+            margin-right: 16px;
+        }
+    
+        img:last-of-type {
+            height: 10vw;
+            width: 5.63vh;
+        }
+    }    
 }
 .contentContainer {
   position: relative;
@@ -31,6 +50,7 @@ $pagePadding: 16px;
     font-family: Roboto;
     font-size: .75rem;
     padding: 0px $pagePadding;
+    font-weight: bold;
     font-stretch: condensed;
     font-style: normal;
     line-height: normal;
@@ -47,8 +67,8 @@ $pagePadding: 16px;
     height: 14.30vh;
 
     img {
-        width: 32px;
-        height: 32px;
+        height: 10vw;
+        width: 5.63vh;
         object-fit: contain;
         margin-right: 12px;
     }
@@ -93,7 +113,7 @@ $pagePadding: 16px;
 .buttonsContainer {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     min-height: 86px;
     height: 15.14vh;
 }
