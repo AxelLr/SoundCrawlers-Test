@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/SoundCrawlers-Test/static/css/main.87ffec6f.chunk.css",
+    "main.js": "/SoundCrawlers-Test/static/js/main.ca85c2f2.chunk.js",
+    "main.js.map": "/SoundCrawlers-Test/static/js/main.ca85c2f2.chunk.js.map",
+    "runtime-main.js": "/SoundCrawlers-Test/static/js/runtime-main.c46b6b69.js",
+    "runtime-main.js.map": "/SoundCrawlers-Test/static/js/runtime-main.c46b6b69.js.map",
+    "static/css/2.764ccc25.chunk.css": "/SoundCrawlers-Test/static/css/2.764ccc25.chunk.css",
+    "static/js/2.f7eff1c6.chunk.js": "/SoundCrawlers-Test/static/js/2.f7eff1c6.chunk.js",
+    "static/js/2.f7eff1c6.chunk.js.map": "/SoundCrawlers-Test/static/js/2.f7eff1c6.chunk.js.map",
+    "index.html": "/SoundCrawlers-Test/index.html",
+    "precache-manifest.e106b0638867226eb650fdcb2fe02173.js": "/SoundCrawlers-Test/precache-manifest.e106b0638867226eb650fdcb2fe02173.js",
+    "service-worker.js": "/SoundCrawlers-Test/service-worker.js",
+    "static/css/2.764ccc25.chunk.css.map": "/SoundCrawlers-Test/static/css/2.764ccc25.chunk.css.map",
+    "static/css/main.87ffec6f.chunk.css.map": "/SoundCrawlers-Test/static/css/main.87ffec6f.chunk.css.map",
+    "static/js/2.f7eff1c6.chunk.js.LICENSE.txt": "/SoundCrawlers-Test/static/js/2.f7eff1c6.chunk.js.LICENSE.txt",
+    "static/media/SearchIcon.svg": "/SoundCrawlers-Test/static/media/SearchIcon.612942ad.svg",
+    "static/media/close-icon.svg": "/SoundCrawlers-Test/static/media/close-icon.ffb76979.svg",
+    "static/media/comment-icon.svg": "/SoundCrawlers-Test/static/media/comment-icon.b2d23c0d.svg",
+    "static/media/flag-icon.svg": "/SoundCrawlers-Test/static/media/flag-icon.9391826c.svg",
+    "static/media/headphones-icon.svg": "/SoundCrawlers-Test/static/media/headphones-icon.6bd481ee.svg",
+    "static/media/like-icon-2.svg": "/SoundCrawlers-Test/static/media/like-icon-2.8210b7f5.svg",
+    "static/media/like-icon.svg": "/SoundCrawlers-Test/static/media/like-icon.ae7b1122.svg",
+    "static/media/profileImage.svg": "/SoundCrawlers-Test/static/media/profileImage.68b4d1fb.svg",
+    "static/media/track-icon.svg": "/SoundCrawlers-Test/static/media/track-icon.941f9e31.svg",
+    "static/media/youtubeVideo.png": "/SoundCrawlers-Test/static/media/youtubeVideo.bdc89419.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c46b6b69.js",
+    "static/css/2.764ccc25.chunk.css",
+    "static/js/2.f7eff1c6.chunk.js",
+    "static/css/main.87ffec6f.chunk.css",
+    "static/js/main.ca85c2f2.chunk.js"
+  ]
+}
